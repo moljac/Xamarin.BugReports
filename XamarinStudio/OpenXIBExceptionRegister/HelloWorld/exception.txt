@@ -1,0 +1,14 @@
+An error has occurred
+
+Error updating Xcode project. Could not generate outlet 'buttonSerializeXml' in class 'HelloWorld.MonoTouch.MainViewController' as its type '?' could not be resolved to Objective-C.
+
+Hint: Try adding [Register ("?")] to the class definition for ?.
+
+
+MonoDevelop.MacDev.ObjCIntegration.ObjectiveCGenerationException: Could not generate outlet 'buttonSerializeXml' in class 'HelloWorld.MonoTouch.MainViewController' as its type '?' could not be resolved to Objective-C.
+
+Hint: Try adding [Register ("?")] to the class definition for ?.
+  at MonoDevelop.MacDev.ObjCIntegration.NSObjectTypeInfo.GenerateObjcType (System.String directory, System.String[] frameworks) [0x001ee] in /Users/builder/data/lanes/monodevelop-lion-bs1/fae7c2bd/source/md-addins/MonoDevelop.MacDev/MonoDevelop.MacDev/ObjCIntegration/NSObjectTypeInfo.cs:170 
+  at MonoDevelop.MacDev.XcodeSyncing.XcodeSyncedType.SyncOut (IProgressMonitor monitor, MonoDevelop.MacDev.XcodeSyncing.XcodeSyncContext context) [0x0001b] in /Users/builder/data/lanes/monodevelop-lion-bs1/fae7c2bd/source/md-addins/MonoDevelop.MacDev/MonoDevelop.MacDev/XcodeSyncing/XcodeSyncedType.cs:78 
+  at MonoDevelop.MacDev.XcodeSyncing.XcodeMonitor.UpdateProject (IProgressMonitor monitor, System.Collections.Generic.List`1 allItems, MonoDevelop.MacDev.XcodeIntegration.XcodeProject emptyProject) [0x003a3] in /Users/builder/data/lanes/monodevelop-lion-bs1/fae7c2bd/source/md-addins/MonoDevelop.MacDev/MonoDevelop.MacDev/XcodeSyncing/XcodeMonitor.cs:154 
+  at MonoDevelop.MacDev.XcodeSyncing.XcodeProjectTracker.UpdateXcodeProject (IProgressMonitor monitor) [0x00030] in /Users/builder/data/lanes/monodevelop-lion-bs1/fae7c2bd/source/md-addins/MonoDevelop.MacDev/MonoDevelop.MacDev/XcodeSyncing/XcodeProjectTracker.cs:481 
