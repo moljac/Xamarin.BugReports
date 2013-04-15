@@ -1,0 +1,246 @@
+﻿[2013-04-12 06:37:51.847] [Info] Installation ID: 0621f56a-536c-473d-932a-e334c4a09d4d
+[2013-04-12 06:37:51.852] [Info] Operating system: Windows Vista v6.0.6002.131072 (Business (Service Pack 2); Microsoft Windows NT 6.0.6002 Service Pack 2), 32-bit
+[2013-04-12 06:37:52.035] [Info] Installer version: 3.0.0.14799
+[2013-04-12 06:37:52.076] [Info] Status: in progress
+[2013-04-12 06:37:53.138] [Info] Retrieving installation manifest.
+[2013-04-12 06:37:53.141] [Info] Downloading from 'http://xamarin.com/installer_assets/v3/Windows/Universal//InstallationManifest.xml'.
+[2013-04-12 06:37:53.148] [Debug] Setting download timeout for 'http://xamarin.com/installer_assets/v3/Windows/Universal//InstallationManifest.xml' to 60s
+[2013-04-12 06:37:53.756] [Info] Retrieving installation size manifest.
+[2013-04-12 06:37:53.760] [Info] Downloading from 'http://xamarin.com/installer_assets/v3/Windows/Universal//InstallationSizes.xml'.
+[2013-04-12 06:37:53.764] [Debug] Setting download timeout for 'http://xamarin.com/installer_assets/v3/Windows/Universal//InstallationSizes.xml' to 60s
+[2013-04-12 06:37:54.104] [Info] Installation size manifest not found online, using the bundled copy
+[2013-04-12 06:37:54.229] [Info] Installation size manifest: reading from assembly.
+[2013-04-12 06:37:54.236] [Info] Determining list of software items to install.
+[2013-04-12 06:37:54.240] [Debug] Processing update nodes from the manifest.
+[2013-04-12 06:37:54.248] [Debug] Creating and initializing software item 'Java JDK'
+[2013-04-12 06:37:54.359] [Debug] Creating and initializing software item 'Android SDK'
+[2013-04-12 06:37:54.381] [Debug] Creating and initializing software item 'GTK#'
+[2013-04-12 06:37:54.390] [Debug] Creating and initializing software item 'Xamarin Studio'
+[2013-04-12 06:37:54.393] [Debug] Creating and initializing software item 'Xamarin.Android for Visual Studio and Xamarin Studio'
+[2013-04-12 06:37:54.395] [Debug] Creating and initializing software item 'Xamarin.iOS for Visual Studio'
+[2013-04-12 06:37:54.400] [Debug] Detecting software item 'Java JDK'
+[2013-04-12 06:37:54.403] [Info] Checking whether JDK needs to be installed.
+[2013-04-12 06:37:54.406] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\JavaSoft\Java Development Kit', value 'CurrentVersion'
+[2013-04-12 06:37:54.409] [Debug] Attempting to read registry subkey 'SOFTWARE\JavaSoft\Java Development Kit', value 'CurrentVersion'
+[2013-04-12 06:37:54.413] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\JavaSoft\Java Development Kit\1.7', value 'JavaHome'
+[2013-04-12 06:37:54.416] [Debug] Attempting to read registry subkey 'SOFTWARE\JavaSoft\Java Development Kit\1.7', value 'JavaHome'
+[2013-04-12 06:37:54.418] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\JavaSoft\Java Development Kit\1.6', value 'JavaHome'
+[2013-04-12 06:37:54.421] [Debug] Attempting to read registry subkey 'SOFTWARE\JavaSoft\Java Development Kit\1.6', value 'JavaHome'
+[2013-04-12 06:37:54.424] [Info] Incompatible version of JDK detected (1.7)
+[2013-04-12 06:37:54.428] [Info] JDK 1.6 needs to be installed.
+[2013-04-12 06:37:54.431] [Info] Status: successful
+[2013-04-12 06:37:54.435] [Info] Software item 'Java JDK': not up to date
+[2013-04-12 06:37:54.438] [Info] Component 'Java JDK' v. 1.7.0 present but requires update to v. 1.6.0
+[2013-04-12 06:37:54.442] [Debug] Detecting software item 'Android SDK'
+[2013-04-12 06:37:54.447] [Info] Checking if Android SDK needs to be updated/installed
+[2013-04-12 06:37:54.450] [Info] Fetching Android SDK manifest.
+[2013-04-12 06:37:54.458] [Info] Manifest URL: http://dl.google.com/android/repository/repository-7.xml
+[2013-04-12 06:37:54.462] [Info] Using default samples:
+[2013-04-12 06:37:54.567] [Info] Downloading from 'http://dl.google.com/android/repository/repository-7.xml'.
+[2013-04-12 06:37:54.581] [Debug] Setting download timeout for 'http://dl.google.com/android/repository/repository-7.xml' to 25s
+[2013-04-12 06:37:54.597] [Info] AVD 'MonoForAndroid API 15' needs to be created.
+[2013-04-12 06:37:54.605] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\Android SDK Tools', value 'Path'
+[2013-04-12 06:37:54.613] [Debug] Attempting to read registry subkey 'SOFTWARE\Android SDK Tools', value 'Path'
+[2013-04-12 06:37:54.724] [Info] Determining the list of components to install/update in C:\Program Files\Android\android-sdk
+[2013-04-12 06:37:54.733] [Info] Checking Platform Tools component.
+[2013-04-12 06:37:54.738] [Info] Platform Tools need to be installed.
+[2013-04-12 06:37:54.741] [Info] Checking Tools component.
+[2013-04-12 06:37:54.744] [Info] Tools need to be installed.
+[2013-04-12 06:37:54.747] [Info] Checking API 7
+[2013-04-12 06:37:54.750] [Warning] System image descriptor for API level 7 is missing
+[2013-04-12 06:37:54.754] [Info] Checking API 8
+[2013-04-12 06:37:54.757] [Warning] System image descriptor for API level 8 is missing
+[2013-04-12 06:37:54.762] [Info] Checking API 10
+[2013-04-12 06:37:54.766] [Warning] System image descriptor for API level 10 is missing
+[2013-04-12 06:37:54.769] [Info] Checking API 12
+[2013-04-12 06:37:54.773] [Warning] System image descriptor for API level 12 is missing
+[2013-04-12 06:37:54.776] [Info] Checking API 14
+[2013-04-12 06:37:54.795] [Info] Checking API 15
+[2013-04-12 06:37:54.800] [Info] Checking NDK
+[2013-04-12 06:37:54.808] [Debug] Download size for 'http://dl.google.com/android/ndk/android-ndk-r8d-windows.zip': 327014028
+[2013-04-12 06:37:54.813] [Info] Android NDK r8d needs to be installed
+[2013-04-12 06:37:54.816] [Info] Android SDK needs to be updated/installed
+[2013-04-12 06:37:54.820] [Info] Asking user to select the Android SDK to update
+[2013-04-12 06:37:54.825] [Info] Status: successful
+[2013-04-12 06:37:54.829] [Info] Software item 'Android SDK': not up to date
+[2013-04-12 06:37:54.835] [Info] Component 'Android SDK' v. 21.0.1 present but requires update to v. 21.0.0
+[2013-04-12 06:37:54.839] [Debug] Detecting software item 'GTK#'
+[2013-04-12 06:37:54.842] [Info] Checking whether GTK# needs installation/updating
+[2013-04-12 06:37:54.846] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\Novell\GtkSharp\Version', value ''
+[2013-04-12 06:37:54.849] [Debug] Attempting to read registry subkey 'SOFTWARE\Novell\GtkSharp\Version', value ''
+[2013-04-12 06:37:54.853] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\Xamarin\GtkSharp\Version', value ''
+[2013-04-12 06:37:54.856] [Debug] Attempting to read registry subkey 'SOFTWARE\Xamarin\GtkSharp\Version', value ''
+[2013-04-12 06:37:54.861] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\Xamarin\GtkSharp\InstallFolder', value ''
+[2013-04-12 06:37:54.866] [Debug] Attempting to read registry subkey 'SOFTWARE\Xamarin\GtkSharp\InstallFolder', value ''
+[2013-04-12 06:37:54.870] [Info] Previous GTK# is older.
+[2013-04-12 06:37:54.874] [Info] GTK# 2.12.20 needs to be installed.
+[2013-04-12 06:37:54.878] [Info] Status: successful
+[2013-04-12 06:37:54.882] [Info] Software item 'GTK#': not up to date
+[2013-04-12 06:37:54.887] [Info] Component 'GTK#' v. 2.12.19 present but requires update to v. 2.12.20
+[2013-04-12 06:37:54.891] [Debug] Detecting software item 'Xamarin Studio'
+[2013-04-12 06:37:54.895] [Info] Checking whether Xamarin Studio needs installation/updating
+[2013-04-12 06:37:54.899] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\Xamarin\XamarinStudio', value 'Version'
+[2013-04-12 06:37:54.904] [Debug] Attempting to read registry subkey 'SOFTWARE\Xamarin\XamarinStudio', value 'Version'
+[2013-04-12 06:37:54.911] [Debug] Attempting to read registry subkey 'SOFTWARE\Wow6432Node\Xamarin\XamarinStudio', value 'Path'
+[2013-04-12 06:37:54.915] [Debug] Attempting to read registry subkey 'SOFTWARE\Xamarin\XamarinStudio', value 'Path'
+[2013-04-12 06:37:54.920] [Info] Status: successful
+[2013-04-12 06:37:54.925] [Info] Component 'Xamarin Studio' v. 4.0.3 present
+[2013-04-12 06:37:54.928] [Info] Software item 'Xamarin Studio': up to date
+[2013-04-12 06:37:54.932] [Debug] Detecting software item 'Xamarin.Android for Visual Studio and Xamarin Studio'
+[2013-04-12 06:37:54.938] [Info] Checking whether Xamarin.Android SDK needs installation/updating
+[2013-04-12 06:37:54.942] [Info] Xamarin.Android add-in for VisualStudio 2010 is missing
+[2013-04-12 06:37:54.946] [Info] Xamarin.Android SDK 4.6.0 requires installation.
+[2013-04-12 06:37:54.949] [Info] Status: successful
+[2013-04-12 06:37:54.953] [Info] Software item 'Xamarin.Android for Visual Studio and Xamarin Studio': not up to date
+[2013-04-12 06:37:54.957] [Info] Component 'Xamarin.Android for Visual Studio and Xamarin Studio' v. 4.2.5 present but requires update to v. 4.6.0
+[2013-04-12 06:37:54.960] [Debug] Detecting software item 'Xamarin.iOS for Visual Studio'
+[2013-04-12 06:37:54.964] [Info] Checking whether Xamarin.iOS for Visual Studio SDK needs installation/updating
+[2013-04-12 06:37:54.968] [Info] Xamarin.iOS for Visual Studio add-in for VisualStudio 2010 is missing
+[2013-04-12 06:37:54.974] [Info] Xamarin.iOS for Visual Studio SDK 1.0.897 requires installation.
+[2013-04-12 06:37:54.978] [Info] Status: successful
+[2013-04-12 06:37:54.982] [Info] Software item 'Xamarin.iOS for Visual Studio': not up to date
+[2013-04-12 06:37:54.986] [Info] Component 'Xamarin.iOS for Visual Studio' v. 1.0.625 present but requires update to v. 1.0.897
+[2013-04-12 06:37:54.989] [Info] Detection complete
+[2013-04-12 06:38:00.495] [Debug] Waiting for initial task to complete.
+[2013-04-12 06:38:00.498] [Debug] Initial task already completed.
+[2013-04-12 06:38:00.501] [Debug] Detection completed.
+[2013-04-12 06:38:15.804] [Info] User chose to update Android SDK at: C:\Program Files\Android\android-sdk
+[2013-04-12 06:38:15.808] [Info] 3 Android SDK components need to be downloaded.
+[2013-04-12 06:38:15.811] [Debug] Enqueueing component: platform-tools ("platform tools")
+[2013-04-12 06:38:15.815] [Debug] Enqueueing component: tools ("tools")
+[2013-04-12 06:38:15.819] [Debug] Enqueueing component: NDK r8d ("Android NDK r8d (it may take a while)")
+[2013-04-12 06:38:15.822] [Debug] Download service starting.
+[2013-04-12 06:38:15.925] [Debug] Download size for 'http://download.xamarin.com/Installer/MonoForAndroid/jdk-6u39-windows-i586.exe': 73116072
+[2013-04-12 06:38:16.028] [Debug] Download size for 'http://dl.google.com/android/repository/platform-tools_r16.0.2-windows.zip': 11948088
+[2013-04-12 06:38:16.031] [Debug] Download size for 'http://dl.google.com/android/repository/tools_r21.1-windows.zip': 99246397
+[2013-04-12 06:38:16.034] [Debug] Download size for 'http://dl.google.com/android/ndk/android-ndk-r8d-windows.zip': 327014028
+[2013-04-12 06:38:16.037] [Debug] Download size for 'http://download.xamarin.com/Installer/gtk-sharp-2.12.20.msi': 25612288
+[2013-04-12 06:38:16.140] [Debug] Download size for 'http://download.xamarin.com/MonoforAndroid/Windows/mono-android-4.6.02001.msi': 163531943
+[2013-04-12 06:38:16.143] [Debug] Download size for 'http://download.xamarin.com/MonoTouchforVisualStudio/Windows/mtvs-1.0.897.0.msi': 44552752
+[2013-04-12 06:38:16.146] [Info] Downloading from 'http://download.xamarin.com/Installer/MonoForAndroid/jdk-6u39-windows-i586.exe'.
+[2013-04-12 06:38:16.149] [Debug] Setting download timeout for 'http://download.xamarin.com/Installer/MonoForAndroid/jdk-6u39-windows-i586.exe' to 60s
+[2013-04-12 06:38:19.852] [Debug] No software item needs its license to be accepted. Skipping the licenses page.
+[2013-04-12 06:38:19.856] [Info] Installation of software items starting.
+[2013-04-12 06:38:19.859] [Debug] Checking software item 'Java JDK'
+[2013-04-12 06:38:19.862] [Debug] Checking software item 'Android SDK'
+[2013-04-12 06:38:19.866] [Debug] Checking software item 'GTK#'
+[2013-04-12 06:38:19.869] [Debug] Checking software item 'Xamarin Studio'
+[2013-04-12 06:38:19.872] [Info] Software item 'Xamarin Studio' does not need to be installed
+[2013-04-12 06:38:19.875] [Debug] Checking software item 'Xamarin.Android for Visual Studio and Xamarin Studio'
+[2013-04-12 06:38:19.878] [Debug] Checking software item 'Xamarin.iOS for Visual Studio'
+[2013-04-12 06:38:19.881] [Debug] Starting installation task.
+[2013-04-12 06:38:19.884] [Info] Background installation worker called.
+[2013-04-12 06:38:19.887] [Info] Processing software items
+[2013-04-12 06:38:19.890] [Info] Installing software item 'Java JDK'
+[2013-04-12 06:38:19.893] [Info] Java JDK is waiting for download to finish.
+[2013-04-12 06:39:09.899] [Info] Downloading from 'http://dl.google.com/android/repository/platform-tools_r16.0.2-windows.zip'.
+[2013-04-12 06:39:09.904] [Debug] Setting download timeout for 'http://dl.google.com/android/repository/platform-tools_r16.0.2-windows.zip' to 60s
+[2013-04-12 06:39:09.907] [Info] Starting JDK installation: <USER_HOME>\Temp\Xamarin\DOWNLO~1\JDK-6U~1.EXE /s /qn /log "<USER_HOME>\Temp\tmp4A4A.tmp"
+[2013-04-12 06:39:17.211] [Info] Downloading from 'http://dl.google.com/android/repository/tools_r21.1-windows.zip'.
+[2013-04-12 06:39:17.216] [Debug] Setting download timeout for 'http://dl.google.com/android/repository/tools_r21.1-windows.zip' to 60s
+[2013-04-12 06:39:52.157] [Info] Status: successful
+[2013-04-12 06:39:52.162] [Info] Software item 'Java JDK' installed successfully.
+[2013-04-12 06:39:52.166] [Info] Status: successful
+[2013-04-12 06:39:52.169] [Info] Status: successful
+[2013-04-12 06:39:52.173] [Info] Installing software item 'Android SDK'
+[2013-04-12 06:39:52.177] [Info] Android SDK is waiting for download to finish.
+[2013-04-12 06:40:23.884] [Info] Downloading from 'http://dl.google.com/android/ndk/android-ndk-r8d-windows.zip'.
+[2013-04-12 06:40:23.888] [Debug] Setting download timeout for 'http://dl.google.com/android/ndk/android-ndk-r8d-windows.zip' to 60s
+[2013-04-12 06:43:57.003] [Info] Installing Android SDK and components.
+[2013-04-12 06:43:57.008] [Info] Downloading from 'http://download.xamarin.com/Installer/gtk-sharp-2.12.20.msi'.
+[2013-04-12 06:43:57.013] [Debug] Setting download timeout for 'http://download.xamarin.com/Installer/gtk-sharp-2.12.20.msi' to 60s
+[2013-04-12 06:43:57.017] [Info] Making sure no Android utility from the target directory is running
+[2013-04-12 06:43:57.222] [Info] Resetting IDE's Android SDK location to 'C:\Program Files\Android\android-sdk'
+[2013-04-12 06:43:57.226] [Info] Installing component: platform-tools ("platform tools")
+[2013-04-12 06:43:57.230] [Info] Installing Android SDK Platform Tools component
+[2013-04-12 06:43:57.234] [Info] Installing Android archive 'platform-tools'
+[2013-04-12 06:43:57.238] [Info] Unzipping file '<USER_HOME>\Temp\Xamarin\downloads\platform-tools_r16.0.2-windows.zip' to directory '<USER_HOME>\Temp\Xamarin\zips\77357c5
+[2013-04-12 06:43:57.242] [Debug] Processing ZIP archive internally, external unzip failed
+[2013-04-12 06:43:59.146] [Info] Archive unzipped to '<USER_HOME>\Temp\Xamarin\zips\77357c5\platform-tools'
+[2013-04-12 06:43:59.152] [Debug] Android archive 'platform-tools' unpacked in directory '<USER_HOME>\Temp\Xamarin\zips\77357c5\platform-tools'
+[2013-04-12 06:43:59.159] [Debug] Archive's destination path: C:\Program Files\Android\android-sdk\platform-tools
+[2013-04-12 06:43:59.165] [Info] Moving old directory 'C:\Program Files\Android\android-sdk\platform-tools' to 'C:\Program Files\Android\android-sdk\platform-tools.old1766918717'
+[2013-04-12 06:44:00.169] [Info] Moving component to its destination path.
+[2013-04-12 06:44:00.473] [Info] Installing component: tools ("tools")
+[2013-04-12 06:44:00.477] [Info] Installing Android SDK Tools
+[2013-04-12 06:44:00.480] [Info] Installing Android archive 'tools'
+[2013-04-12 06:44:00.484] [Info] Unzipping file '<USER_HOME>\Temp\Xamarin\downloads\tools_r21.1-windows.zip' to directory '<USER_HOME>\Temp\Xamarin\zips\7c1a1dba
+[2013-04-12 06:44:00.487] [Debug] Processing ZIP archive internally, external unzip failed
+[2013-04-12 06:44:09.490] [Info] Archive unzipped to '<USER_HOME>\Temp\Xamarin\zips\7c1a1dba\tools'
+[2013-04-12 06:44:09.495] [Debug] Android archive 'tools' unpacked in directory '<USER_HOME>\Temp\Xamarin\zips\7c1a1dba\tools'
+[2013-04-12 06:44:09.507] [Debug] Archive's destination path: C:\Program Files\Android\android-sdk\tools
+[2013-04-12 06:44:09.514] [Info] Moving old directory 'C:\Program Files\Android\android-sdk\tools' to 'C:\Program Files\Android\android-sdk\tools.old583045768'
+[2013-04-12 06:44:16.722] [Info] Moving component to its destination path.
+[2013-04-12 06:44:18.732] [Info] Downloading from 'http://download.xamarin.com/MonoforAndroid/Windows/mono-android-4.6.02001.msi'.
+[2013-04-12 06:44:18.738] [Debug] Setting download timeout for 'http://download.xamarin.com/MonoforAndroid/Windows/mono-android-4.6.02001.msi' to 60s
+[2013-04-12 06:44:21.746] [Info] Installing component: NDK r8d ("Android NDK r8d (it may take a while)")
+[2013-04-12 06:44:21.751] [Info] Installing Android NDK r8d
+[2013-04-12 06:44:21.756] [Info] Installing Android archive 'NDK r8d'
+[2013-04-12 06:44:21.761] [Info] Unzipping file '<USER_HOME>\Temp\Xamarin\downloads\android-ndk-r8d-windows.zip' to directory '<USER_HOME>\Temp\Xamarin\zips\11543531
+[2013-04-12 06:44:21.765] [Debug] Processing ZIP archive internally, external unzip failed
+[2013-04-12 06:45:57.620] [Info] Downloading from 'http://download.xamarin.com/MonoTouchforVisualStudio/Windows/mtvs-1.0.897.0.msi'.
+[2013-04-12 06:45:57.624] [Debug] Setting download timeout for 'http://download.xamarin.com/MonoTouchforVisualStudio/Windows/mtvs-1.0.897.0.msi' to 60s
+[2013-04-12 06:46:41.242] [Info] Archive unzipped to '<USER_HOME>\Temp\Xamarin\zips\11543531\android-ndk-r8d'
+[2013-04-12 06:46:41.246] [Debug] Android archive 'NDK r8d' unpacked in directory '<USER_HOME>\Temp\Xamarin\zips\11543531\android-ndk-r8d'
+[2013-04-12 06:46:41.252] [Debug] Archive's destination path: C:\Program Files\Android\ndk\android-ndk-r8d
+[2013-04-12 06:46:41.256] [Info] Creating Android component's parent path 'C:\Program Files\Android\ndk'
+[2013-04-12 06:46:41.260] [Info] Moving component to its destination path.
+[2013-04-12 06:47:41.523] [Info] Creating 'MonoForAndroid_API_15' AVD
+[2013-04-12 06:47:43.829] [Debug] AVD 'MonoForAndroid_API_15' created in 'C:\Users\moljac\.android\avd\MonoForAndroid API 15.avd'.
+[2013-04-12 06:47:43.834] [Debug] Setting registry key 'S-1-5-21-3704455723-2436377123-3616487988-1000\SOFTWARE\Xamarin\MonoAndroid\AVDList' to 'MonoForAndroid_API_14,MonoForAndroid_API_12,MonoForAndroid_API_10,MonoForAndroid_API_8,MonoForAndroid_API_7,MonoForAndroid_API_15'
+[2013-04-12 06:47:44.237] [Debug] Setting registry key 'S-1-5-21-3704455723-2436377123-3616487988-1000\SOFTWARE\Xamarin\MonoAndroid\AVDList' to 'MonoForAndroid_API_14,MonoForAndroid_API_12,MonoForAndroid_API_10,MonoForAndroid_API_8,MonoForAndroid_API_7,MonoForAndroid_API_15'
+[2013-04-12 06:47:44.441] [Debug] Setting registry key 'S-1-5-21-3704455723-2436377123-3616487988-1000\SOFTWARE\Xamarin\MonoAndroid\AVDList' to 'MonoForAndroid_API_14,MonoForAndroid_API_12,MonoForAndroid_API_10,MonoForAndroid_API_8,MonoForAndroid_API_7,MonoForAndroid_API_15'
+[2013-04-12 06:47:44.447] [Debug] Setting registry key 'S-1-5-21-3704455723-2436377123-3616487988-1000\SOFTWARE\Xamarin\MonoAndroid\AVDList' to 'MonoForAndroid_API_14,MonoForAndroid_API_12,MonoForAndroid_API_10,MonoForAndroid_API_8,MonoForAndroid_API_7,MonoForAndroid_API_15'
+[2013-04-12 06:47:44.453] [Debug] Setting registry key 'S-1-5-21-3704455723-2436377123-3616487988-1000\SOFTWARE\Xamarin\MonoAndroid\AVDList' to 'MonoForAndroid_API_14,MonoForAndroid_API_12,MonoForAndroid_API_10,MonoForAndroid_API_8,MonoForAndroid_API_7,MonoForAndroid_API_15'
+[2013-04-12 06:47:44.458] [Debug] Setting registry key 'S-1-5-21-3704455723-2436377123-3616487988-1000\SOFTWARE\Xamarin\MonoAndroid\AVDList' to 'MonoForAndroid_API_14,MonoForAndroid_API_12,MonoForAndroid_API_10,MonoForAndroid_API_8,MonoForAndroid_API_7,MonoForAndroid_API_15'
+[2013-04-12 06:47:44.463] [Debug] Creating Start Menu shortcut to launch private Android SDK manager
+[2013-04-12 06:47:44.567] [Debug] Creating Start Menu shortcut 'Android SDK Manager', for executable 'C:\Program Files\Android\android-sdk\SDK Manager.exe'
+[2013-04-12 06:47:44.684] [Debug] Shortcut created successfully.
+[2013-04-12 06:47:44.690] [Debug] Creating Start Menu shortcut to private Android SDK Documentation
+[2013-04-12 06:47:44.694] [Debug] Creating Start Menu shortcut 'Android SDK Documentation', for executable 'C:\Program Files\Android\android-sdk\docs\index.html'
+[2013-04-12 06:47:44.697] [Debug] Shortcut created successfully.
+[2013-04-12 06:47:44.700] [Debug] Creating Start Menu shortcut to the private SDK folder.
+[2013-04-12 06:47:44.704] [Debug] Creating Start Menu shortcut 'Open Android SDK folder', for executable 'C:\Program Files\Android\android-sdk'
+[2013-04-12 06:47:44.708] [Debug] Shortcut created successfully.
+[2013-04-12 06:47:44.712] [Info] Software item 'Android SDK' installed successfully.
+[2013-04-12 06:47:44.715] [Info] Status: successful
+[2013-04-12 06:47:44.720] [Info] Status: successful
+[2013-04-12 06:47:44.724] [Info] Installing software item 'GTK#'
+[2013-04-12 06:47:44.729] [Info] Installing an MSI
+[2013-04-12 06:47:44.733] [Info] Database path: <USER_HOME>\Temp\Xamarin\downloads\gtk-sharp-2.12.20.msi
+[2013-04-12 06:47:44.737] [Info] Starting MSI installation: msiexec /i "<USER_HOME>\Temp\Xamarin\downloads\gtk-sharp-2.12.20.msi" /quiet /passive /log "<USER_HOME>\Temp\tmp25AC.tmp"
+[2013-04-12 06:49:25.418] [Info] MSI installation process exited with code 0
+[2013-04-12 06:49:25.422] [Info] MSI installation successful.
+[2013-04-12 06:49:25.426] [Info] Status: successful
+[2013-04-12 06:49:25.430] [Info] Software item 'GTK#' installed successfully.
+[2013-04-12 06:49:25.433] [Info] Status: successful
+[2013-04-12 06:49:25.436] [Info] Status: successful
+[2013-04-12 06:49:25.440] [Info] Skipping installation of software item 'Xamarin Studio'
+[2013-04-12 06:49:25.444] [Info] Installing software item 'Xamarin.Android for Visual Studio and Xamarin Studio'
+[2013-04-12 06:49:25.447] [Info] Installing an MSI
+[2013-04-12 06:49:25.451] [Info] Database path: <USER_HOME>\Temp\Xamarin\downloads\mono-android-4.6.02001.msi
+[2013-04-12 06:49:25.454] [Info] Starting MSI installation: msiexec /i "<USER_HOME>\Temp\Xamarin\downloads\mono-android-4.6.02001.msi" /quiet /passive /log "<USER_HOME>\Temp\tmpAED9.tmp" ADDLOCAL=MonoDroidSDK,VisualStudioAddin
+[2013-04-12 06:56:15.213] [Info] MSI installation process exited with code 0
+[2013-04-12 06:56:15.238] [Info] MSI installation successful.
+[2013-04-12 06:56:15.242] [Info] Status: successful
+[2013-04-12 06:56:15.246] [Info] Software item 'Xamarin.Android for Visual Studio and Xamarin Studio' installed successfully.
+[2013-04-12 06:56:15.249] [Info] Status: successful
+[2013-04-12 06:56:15.253] [Info] Status: successful
+[2013-04-12 06:56:15.257] [Info] Installing software item 'Xamarin.iOS for Visual Studio'
+[2013-04-12 06:56:15.261] [Info] Installing an MSI
+[2013-04-12 06:56:15.265] [Info] Database path: <USER_HOME>\Temp\Xamarin\downloads\mtvs-1.0.897.0.msi
+[2013-04-12 06:56:15.269] [Info] Starting MSI installation: msiexec /i "<USER_HOME>\Temp\Xamarin\downloads\mtvs-1.0.897.0.msi" /quiet /passive /log "<USER_HOME>\Temp\tmpEFA1.tmp" ADDLOCAL=XamarinBonjourResponder,MonoTouchSDK,VisualStudioAddin
+[2013-04-12 07:01:37.988] [Info] MSI installation process exited with code 0
+[2013-04-12 07:01:37.999] [Info] MSI installation successful.
+[2013-04-12 07:01:38.003] [Info] Status: successful
+[2013-04-12 07:01:38.007] [Info] Software item 'Xamarin.iOS for Visual Studio' installed successfully.
+[2013-04-12 07:01:38.012] [Info] Status: successful
+[2013-04-12 07:01:38.016] [Info] Status: successful
+[2013-04-12 07:01:38.019] [Debug] Starting installation complete task.
+[2013-04-12 07:01:38.123] [Info] Background installation worker completed.
+[2013-04-12 07:01:38.127] [Info] Installation completed successfully
+[2013-04-12 07:01:38.130] [Info] Status: successful
+[2013-04-12 07:01:38.134] [Info] Status: successful
+[2013-04-12 07:09:02.098] [Info] Status: successful
+[2013-04-12 07:09:02.103] [Info] Status: completed
+[2013-04-12 07:09:02.107] [Debug] Download service terminating.

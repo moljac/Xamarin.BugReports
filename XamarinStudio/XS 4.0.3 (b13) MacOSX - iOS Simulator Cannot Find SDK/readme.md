@@ -1,4 +1,4 @@
-# Xamarin Studio 4.0.3 (b13) MacOSX - iOS Simulator Cannot Find SDK #
+# XS 4.0.3 (b13) MacOSX - iOS Simulator Cannot Find SDK #
 
 
 ## Problem ##
