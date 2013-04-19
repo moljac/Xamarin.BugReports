@@ -114,3 +114,5 @@ UpgradeLog*.XML
 
 # Videos for bug reports http://youtube.com/
 *.mov
+
+*.userprefs
