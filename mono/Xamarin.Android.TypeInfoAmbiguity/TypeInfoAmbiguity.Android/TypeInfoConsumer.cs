@@ -13,7 +13,7 @@ namespace TypeInfoAmbiguity
 	{
 		public void f(TypeInfo ti)
 		{
-			//System.Reflection.Assembly asm = new System.Reflection.Assembly();
+			return;
 		}
 	}
 }
