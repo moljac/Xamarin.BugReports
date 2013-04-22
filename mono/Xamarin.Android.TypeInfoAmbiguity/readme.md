@@ -1,8 +1,15 @@
 # System.Reflection.TypeInfo and Custom.TypeInfo ambiguous in Xamarin.Android #
 
-During porting of SharpSerializer type ambiguity compile error detected in Xamarin.Android
-project in Visual Studio and Xamarin Studio when runtime (default) is .net.
+During porting of SharpSerializer type ambiguity compile error detected **only**
+in Xamarin.Android project in Visual Studio and Xamarin Studio 
+when  runtime (default) is .net.
 
+	using System.Reflection;
+	using Custom;
+	
+	void f(TypeInfo ti)
+	
+	
 Compile Error:
 
 * 	Xamarin.Android (XS Windows, default runtime .net)
@@ -17,9 +24,6 @@ Mono rutime (MacOSX), no errors.
 
 Xamarin.iOS, WinForms and other compile OK. 
 
-
-
-There is bug in bugzilla something like: "mono allows access to non public types....".
 
 There is no System.Reflection.TypeInfo in the docs for both Android and iOS:
 
